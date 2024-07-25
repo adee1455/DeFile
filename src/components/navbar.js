@@ -11,16 +11,16 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className="bg-transparent  dark:bg-transparent fixed w-full h-[73px]  z-20 top-0 start-0 ">
+        <nav className="bg-white  dark:bg-white fixed w-full h-[73px]  z-20 top-0 start-0 ">
   <div className ="max-w-screen-xl flex flex-wrap items-center dark:text-blue-600 text-blue-600  justify-between mx-auto p-4">
   <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="/logo2.png" class="h-12" alt=" Logo"/>
-      <span className="self-center font-mono md:text-3xl text-2xl  font-semibold whitespace-nowrap ">DeFile</span>
+      <img src="/logo2.png" class="sm:h-12 h-8" alt=" Logo"/>
+      <span className="self-center font-mono md:text-3xl text-xl  font-semibold whitespace-nowrap ">DeFile</span>
   </a>
   <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       {/* <button type="button" class="text-white  hover:bg-white hover:text-black dark:hover:text-black border-black bg-black dark:hover:border dark:border focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-black  dark:hover:white ">Get started</button> */}
       <button 
-        className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+        className="relative md:inline-flex sm:hidden hidden h-12   overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
         onClick={handleConnectWallet}
         disabled={loading}
       >

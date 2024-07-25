@@ -12,7 +12,7 @@ const Footer = () => {
                 <img src="/logo2.png" className="h-9" alt=" Logo" />
                 <span className="self-center text-2xl font-semibold font-mono whitespace-nowrap text-blue-600">DeFile</span>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
+            <ul className="flex flex-wrap items-center mb-6 md:text-sm text-xs font-medium text-gray-500 sm:mb-0 ">
                 <li>
                     <a href="https://x.com/adees_eth" className="hover:underline me-4 md:me-6">Made with ❤️ by @adees_eth</a>
                 </li>

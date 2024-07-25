@@ -53,7 +53,7 @@ const UploadForm = () => {
   };
 
   return (
-    <div className='w-[25rem] p-4 m-auto border-2 rounded-xl '>
+    <div className='md:w-[25rem] p-4 m-auto border-2 rounded-xl '>
       <form onSubmit={handleSubmit} className='flex flex-col '>
         <label className="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-900" htmlFor="file">Upload File :</label>
         <input onChange={handleFileChange} required className="shadow-md block w-full text-sm text-gray-600 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-600 focus:outline-none dark:bg-gray-50 dark:border-gray-600 dark:placeholder-gray-600 mb-4 p-2" aria-describedby="user_avatar_help" id="file" type="file" />
