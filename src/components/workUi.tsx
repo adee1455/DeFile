@@ -31,7 +31,7 @@ const content = [
           src="/fileUpload.svg"
           width={300}
           height={400}
-          className="h-full w-full object-cover"
+          className="h-full w-full p-2"
           alt="linear board demo"
         />
       </div>
@@ -47,7 +47,7 @@ const content = [
           src="/access.svg"
           width={300}
           height={400}
-          className="h-full w-full"
+          className="h-full w-full p-2"
           alt="linear board demo"
         />
       </div>
@@ -63,7 +63,7 @@ const content = [
           src="/down.svg"
           width={300}
           height={400}
-          className="h-full w-full"
+          className="h-full w-full p-2"
           alt="linear board demo"
         />
       </div>
