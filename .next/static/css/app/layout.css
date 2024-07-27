@@ -2095,6 +2095,10 @@ body {
     line-height: 1.75rem;
   }
 
+  .sm\:font-semibold {
+    font-weight: 600;
+  }
+
   .sm\:leading-tight {
     line-height: 1.25;
   }
