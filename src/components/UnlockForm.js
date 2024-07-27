@@ -155,7 +155,7 @@ const UnlockForm = () => {
             <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-900" htmlFor="PaperId">Enter File Id :</label>
             <input className='p-2 mb-4 rounded-lg shadow-md ' type="text" placeholder="File ID" value={paperId} onChange={(e) => setPaperId(e.target.value)} required />
         
-                <button type="submit" className='bg-blue-900 text-white w-36 text-sm mx-auto rounded-xl p-2 font-semibold' disabled={loading}>{loading ? 'Unlocking...' : 'Unlock'}</button>
+                <button type="submit" className='bg-blue-900 hover:bg-blue-600 hover:transition-colors text-white w-36 text-sm mx-auto rounded-xl p-2 font-semibold' disabled={loading}>{loading ? 'Unlocking...' : 'Unlock'}</button>
             </form>
             { fileUrl && (
                 <div className='mt-5 flex '>

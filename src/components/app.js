@@ -1,13 +1,14 @@
 import React from 'react'
 import UploadForm from './UploadForm'
 import UnlockForm from './UnlockForm'
+import Navbar from './navbar'
 
 
 const App = () => {
   return (
-    <div className=' min-w-full min-h-fit  mt-32' >
+    <div className=' min-w-full min-h-fit  mt-28' >
       <div>
-        <p className='text-blue-500 text-4xl text-center pb-12 font-bold'>Your Files, Your Control</p>
+        <p className='text-blue-500 text-4xl text-center pb-12 font-bold font-mono'>Your Files, Your Control</p>
       </div>
        <div className='main flex lg:flex-row md:flex-col flex-col  justify-around h-auto w-auto items-center py-6 '>
           <div className="1 bg-gray-200 box-border shadow-xl drop-shadow-lg md:h-[30rem] h-[30rem] md:w-[30rem] rounded-lg md:mx-0 mx-3 ">

@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"../node_modules/@react-three/drei/core/VideoTexture.js -> hls.js\":{\"id\":\"../node_modules/@react-three/drei/core/VideoTexture.js -> hls.js\",\"files\":[]},\"../node_modules/@react-three/drei/web/FaceLandmarker.js -> @mediapipe/tasks-vision\":{\"id\":\"../node_modules/@react-three/drei/web/FaceLandmarker.js -> @mediapipe/tasks-vision\",\"files\":[]},\"components/Globe.jsx -> ./ui/globe\":{\"id\":\"components/Globe.jsx -> ./ui/globe\",\"files\":[\"static/chunks/src_components_ui_globe_tsx.js\"]}}"
