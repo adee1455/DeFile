@@ -22,7 +22,7 @@ const router = useRouter();
   </a>
   <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
       <button 
-        className="relative  md:inline-flex sm:hidden hidden h-12  overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+        className="relative  md:inline-flex sm:hidden hidden h-12  overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
         onClick={handleConnectWallet}
         disabled={loading}
       >

@@ -10,7 +10,7 @@ const UploadForm = () => {
   const [loading, setLoading] = useState(false);
   const [paperId, setPaperId] = useState('');
   const [showPaperId, setShowPaperId] = useState(false);
-
+  const [copied,setCopied] = useState(false);
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
   };
@@ -45,13 +45,29 @@ const UploadForm = () => {
 
   const handleRefresh = () => {
     // Reset form fields and hide paperId div
-    setFile(null);
-    setUnlockTime('');
-    setAuthorizedUsers('');
-    setPaperId('');
-    setShowPaperId(false);
+
+    location.reload(true);
   };
 
+  const shortPaperId = (paperId, strLen) => {
+    if (paperId.length <= strLen) return paperId;
+    const seperator = '...';
+    let seperatorLength = seperator.length;
+    const charsToShow = strLen - seperatorLength;
+    const frontChars = Math.ceil(charsToShow / 2);
+    const backChars = Math.floor(charsToShow / 2);
+    return (
+      paperId.substring(0, frontChars) +
+      seperator +
+      paperId.substring(paperId.length - backChars)
+    );
+  };
+const pid = shortPaperId(paperId,19);
+
+const copylink = (e) => {
+  navigator.clipboard.writeText(paperId);
+  setCopied(true);
+}
   return (
     <div className='md:w-[25rem] p-4 m-auto border-2 rounded-xl '>
       <form onSubmit={handleSubmit} className='flex flex-col '>
@@ -66,9 +82,11 @@ const UploadForm = () => {
         
         {showPaperId && (
           <div id="paperId" className='font-medium text-gray-900 dark:text-gray-900'>
-            <p className="mb-1 text-sm font-medium text-gray-900 dark:text-gray-900">File: </p>
-            <p className='text-[10px] mb-2'>{paperId}</p>
-            <p className='text-[12px] mb-3'>( Store the File Id safely to retrieve the file again.)</p>
+            <div className='flex '>
+            <p className="mb-1 text-md font-bold text-gray-900 dark:text-gray-900">File Id: {pid} </p>
+            <button onClick={copylink} type="button" class="text-white ml-3 bg-blue-900 hover:bg-blue-700 focus:ring-0 focus:border-transparent font-medium rounded-lg text-sm px-4 py-1 me-2 mb-2  focus:outline-none">{copied ? 'Copied' :  'Copy File Id'}</button>
+            </div>
+            <p className='text-[15px] mb-3 font-semibold'>( Store the File Id safely to retrieve the file again.)</p>
             <button className='bg-blue-900 text-white text-sm w-36 rounded-xl p-2 font-semibold' type="button" onClick={handleRefresh}>Refresh</button>
             
           </div>
