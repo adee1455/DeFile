@@ -89,6 +89,235 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "assert":
+/*!*************************!*\
+  !*** external "assert" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "https":
+/*!************************!*\
+  !*** external "https" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("https");
+
+/***/ }),
+
+/***/ "module":
+/*!*************************!*\
+  !*** external "module" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("module");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "path?8ff8":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "punycode":
+/*!***************************!*\
+  !*** external "punycode" ***!
+  \***************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("punycode");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "worker_threads":
+/*!*********************************!*\
+  !*** external "worker_threads" ***!
+  \*********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("worker_threads");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
+/***/ "?63cd":
+/*!****************************!*\
+  !*** bufferutil (ignored) ***!
+  \****************************/
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ "?f624":
+/*!********************************!*\
+  !*** utf-8-validate (ignored) ***!
+  \********************************/
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
@@ -110,13 +339,24 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
-/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.js%5C%22%2C%5C%22import%5C%22%3A%5C%22Inter%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22inter%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.js%5C%22%2C%5C%22import%5C%22%3A%5C%22Inter%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22inter%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ (() => {
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.js%5C%22%2C%5C%22import%5C%22%3A%5C%22Inter%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22inter%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fcontext%2Fweb3modal.tsx%22%2C%22ids%22%3A%5B%22Web3Modal%22%5D%7D&server=true!":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.js%5C%22%2C%5C%22import%5C%22%3A%5C%22Inter%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22inter%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fcontext%2Fweb3modal.tsx%22%2C%22ids%22%3A%5B%22Web3Modal%22%5D%7D&server=true! ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/context/web3modal.tsx */ \"(ssr)/./src/context/web3modal.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMiUyRlVzZXJzJTJGYWRlZSUyRldlYjMtRGV2JTJGRGVGaWxlJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmZvbnQlMkZnb29nbGUlMkZ0YXJnZXQuY3NzJTNGJTdCJTVDJTIycGF0aCU1QyUyMiUzQSU1QyUyMnNyYyUyRmFwcCUyRmxheW91dC5qcyU1QyUyMiUyQyU1QyUyMmltcG9ydCU1QyUyMiUzQSU1QyUyMkludGVyJTVDJTIyJTJDJTVDJTIyYXJndW1lbnRzJTVDJTIyJTNBJTVCJTdCJTVDJTIyc3Vic2V0cyU1QyUyMiUzQSU1QiU1QyUyMmxhdGluJTVDJTIyJTVEJTdEJTVEJTJDJTVDJTIydmFyaWFibGVOYW1lJTVDJTIyJTNBJTVDJTIyaW50ZXIlNUMlMjIlN0QlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0QmbW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZhZGVlJTJGV2ViMy1EZXYlMkZEZUZpbGUlMkZzcmMlMkZhcHAlMkZnbG9iYWxzLmNzcyUyMiUyQyUyMmlkcyUyMiUzQSU1QiU1RCU3RCZtb2R1bGVzPSU3QiUyMnJlcXVlc3QlMjIlM0ElMjIlMkZVc2VycyUyRmFkZWUlMkZXZWIzLURldiUyRkRlRmlsZSUyRnNyYyUyRmNvbnRleHQlMkZ3ZWIzbW9kYWwudHN4JTIyJTJDJTIyaWRzJTIyJTNBJTVCJTIyV2ViM01vZGFsJTIyJTVEJTdEJnNlcnZlcj10cnVlISIsIm1hcHBpbmdzIjoiQUFBQSxrS0FBeUgiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZWZpbGUvPzVlN2UiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIsIHdlYnBhY2tFeHBvcnRzOiBbXCJXZWIzTW9kYWxcIl0gKi8gXCIvVXNlcnMvYWRlZS9XZWIzLURldi9EZUZpbGUvc3JjL2NvbnRleHQvd2ViM21vZGFsLnRzeFwiKTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%5C%22path%5C%22%3A%5C%22src%2Fapp%2Flayout.js%5C%22%2C%5C%22import%5C%22%3A%5C%22Inter%5C%22%2C%5C%22arguments%5C%22%3A%5B%7B%5C%22subsets%5C%22%3A%5B%5C%22latin%5C%22%5D%7D%5D%2C%5C%22variableName%5C%22%3A%5C%22inter%5C%22%7D%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fcontext%2Fweb3modal.tsx%22%2C%22ids%22%3A%5B%22Web3Modal%22%5D%7D&server=true!\n");
 
+/***/ }),
+
+/***/ "(ssr)/./src/context/web3modal.tsx":
+/*!***********************************!*\
+  !*** ./src/context/web3modal.tsx ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Web3Modal: () => (/* binding */ Web3Modal)\n/* harmony export */ });\n/* harmony import */ var _web3modal_ethers5_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @web3modal/ethers5/react */ \"(ssr)/./node_modules/@web3modal/ethers5/dist/esm/exports/react.js\");\n/* __next_internal_client_entry_do_not_use__ Web3Modal auto */ \n// 1. Get projectId at https://cloud.walletconnect.com\nconst projectId = \"5d16e2c0f85cdb58d7408b89cd47bf24\";\n// 2. Set chains\nconst mainnet = {\n    chainId: 1,\n    name: \"Ethereum\",\n    currency: \"ETH\",\n    explorerUrl: \"https://etherscan.io\",\n    rpcUrl: \"https://cloudflare-eth.com\"\n};\nconst testnet = {\n    chainId: 11155111,\n    name: \"Sepolia\",\n    currency: \"SepoliaETH\",\n    explorerUrl: \"https://sepolia.etherscan.io/\",\n    rpcUrl: \"https://eth-sepolia.g.alchemy.com/v2/UEi3OlYcSdlnavJoB9mQWf6f2VQGAeBf\"\n};\n// 3. Create a metadata object\nconst metadata = {\n    name: \"DeFile\",\n    description: \"Decentralized File Locker\",\n    url: \"https://defile.vercel.app\",\n    icons: [\n        \"https://drive.google.com/file/d/15E-Th6oVxc5iqNBNfHnkCCAy_6V858Tl/view?usp=sharing\"\n    ]\n};\n// 4. Create Ethers config\n// const ethersConfig = defaultConfig({\n//   metadata,\n//   auth: {\n//     email: true, // default to true\n//     socials: ['google', 'x', 'github', 'discord', 'apple'],\n//     showWallets: true, // default to true\n//     walletFeatures: true // default to true\n//   },\n//   enableEIP6963: true, // true by default\n//   enableInjected: true, // true by default\n//   enableCoinbase: true, // true by default\n//   rpcUrl: '...', // used for the Coinbase SDK\n//   defaultChainId: 1 // used for the Coinbase SDK\n// })\n// 5. Create a Web3Modal instance\n// createWeb3Modal({\n//   ethersConfig,\n//   chains: [testnet],\n//   projectId,\n//   enableOnramp: true,\n//   enableAnalytics: true // Optional - defaults to your Cloud configuration\n// })\n(0,_web3modal_ethers5_react__WEBPACK_IMPORTED_MODULE_0__.createWeb3Modal)({\n    ethersConfig: (0,_web3modal_ethers5_react__WEBPACK_IMPORTED_MODULE_0__.defaultConfig)({\n        metadata,\n        auth: {\n            email: true,\n            socials: [\n                \"google\",\n                \"x\",\n                \"github\",\n                \"discord\",\n                \"apple\"\n            ],\n            showWallets: false,\n            walletFeatures: true // default to true\n        },\n        enableEIP6963: true,\n        enableInjected: true,\n        enableCoinbase: true,\n        rpcUrl: \"...\",\n        defaultChainId: 1 // used for the Coinbase SDK\n    }),\n    projectId,\n    chains: [\n        testnet\n    ],\n    enableOnramp: true,\n    enableAnalytics: true // Optional - defaults to your Cloud configuration\n});\nfunction Web3Modal({ children }) {\n    return children;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvY29udGV4dC93ZWIzbW9kYWwudHN4IiwibWFwcGluZ3MiOiI7Ozs7OytEQUV5RTtBQUV6RSxzREFBc0Q7QUFDdEQsTUFBTUUsWUFBWTtBQUVsQixnQkFBZ0I7QUFDaEIsTUFBTUMsVUFBVTtJQUNkQyxTQUFTO0lBQ1RDLE1BQU07SUFDTkMsVUFBVTtJQUNWQyxhQUFhO0lBQ2JDLFFBQVE7QUFFVjtBQUNBLE1BQU1DLFVBQVU7SUFDWkwsU0FBUztJQUNUQyxNQUFNO0lBQ05DLFVBQVU7SUFDVkMsYUFBYTtJQUNiQyxRQUFRO0FBRVY7QUFFRiw4QkFBOEI7QUFDOUIsTUFBTUUsV0FBVztJQUNmTCxNQUFNO0lBQ05NLGFBQWE7SUFDYkMsS0FBSztJQUNMQyxPQUFPO1FBQUM7S0FBcUY7QUFDL0Y7QUFFQSwwQkFBMEI7QUFDMUIsdUNBQXVDO0FBQ3ZDLGNBQWM7QUFDZCxZQUFZO0FBQ1osc0NBQXNDO0FBQ3RDLDhEQUE4RDtBQUM5RCw0Q0FBNEM7QUFDNUMsOENBQThDO0FBQzlDLE9BQU87QUFDUCw0Q0FBNEM7QUFDNUMsNkNBQTZDO0FBQzdDLDZDQUE2QztBQUM3QyxnREFBZ0Q7QUFDaEQsbURBQW1EO0FBQ25ELEtBQUs7QUFFTCxpQ0FBaUM7QUFDakMsb0JBQW9CO0FBQ3BCLGtCQUFrQjtBQUNsQix1QkFBdUI7QUFDdkIsZUFBZTtBQUNmLHdCQUF3QjtBQUN4Qiw2RUFBNkU7QUFDN0UsS0FBSztBQUNMYix5RUFBZUEsQ0FBQztJQUNaYyxjQUFjYix1RUFBYUEsQ0FBQztRQUN4QlM7UUFDQUssTUFBTTtZQUNGQyxPQUFPO1lBQ1BDLFNBQVM7Z0JBQUM7Z0JBQVU7Z0JBQUs7Z0JBQVU7Z0JBQVc7YUFBUTtZQUN0REMsYUFBYTtZQUNiQyxnQkFBZ0IsS0FBSyxrQkFBa0I7UUFDM0M7UUFDQUMsZUFBZTtRQUNmQyxnQkFBZ0I7UUFDaEJDLGdCQUFnQjtRQUNoQmQsUUFBUTtRQUNSZSxnQkFBZ0IsRUFBRSw0QkFBNEI7SUFDbEQ7SUFDQXJCO0lBQ0FzQixRQUFRO1FBQUNmO0tBQVE7SUFDakJnQixjQUFjO0lBQ2RDLGlCQUFpQixLQUFLLGtEQUFrRDtBQUM1RTtBQUNPLFNBQVNDLFVBQVUsRUFBRUMsUUFBUSxFQUFFO0lBQ3BDLE9BQU9BO0FBQ1QiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZWZpbGUvLi9zcmMvY29udGV4dC93ZWIzbW9kYWwudHN4PzZjMjEiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5cbmltcG9ydCB7IGNyZWF0ZVdlYjNNb2RhbCwgZGVmYXVsdENvbmZpZyB9IGZyb20gJ0B3ZWIzbW9kYWwvZXRoZXJzNS9yZWFjdCdcblxuLy8gMS4gR2V0IHByb2plY3RJZCBhdCBodHRwczovL2Nsb3VkLndhbGxldGNvbm5lY3QuY29tXG5jb25zdCBwcm9qZWN0SWQgPSAnNWQxNmUyYzBmODVjZGI1OGQ3NDA4Yjg5Y2Q0N2JmMjQnXG5cbi8vIDIuIFNldCBjaGFpbnNcbmNvbnN0IG1haW5uZXQgPSB7XG4gIGNoYWluSWQ6IDEsXG4gIG5hbWU6ICdFdGhlcmV1bScsXG4gIGN1cnJlbmN5OiAnRVRIJyxcbiAgZXhwbG9yZXJVcmw6ICdodHRwczovL2V0aGVyc2Nhbi5pbycsXG4gIHJwY1VybDogJ2h0dHBzOi8vY2xvdWRmbGFyZS1ldGguY29tJyxcbiAgXG59XG5jb25zdCB0ZXN0bmV0ID0ge1xuICAgIGNoYWluSWQ6IDExMTU1MTExLFxuICAgIG5hbWU6ICdTZXBvbGlhJyxcbiAgICBjdXJyZW5jeTogJ1NlcG9saWFFVEgnLFxuICAgIGV4cGxvcmVyVXJsOiAnaHR0cHM6Ly9zZXBvbGlhLmV0aGVyc2Nhbi5pby8nLFxuICAgIHJwY1VybDogJ2h0dHBzOi8vZXRoLXNlcG9saWEuZy5hbGNoZW15LmNvbS92Mi9VRWkzT2xZY1NkbG5hdkpvQjltUVdmNmYyVlFHQWVCZicsXG4gICAgXG4gIH1cblxuLy8gMy4gQ3JlYXRlIGEgbWV0YWRhdGEgb2JqZWN0XG5jb25zdCBtZXRhZGF0YSA9IHtcbiAgbmFtZTogJ0RlRmlsZScsXG4gIGRlc2NyaXB0aW9uOiAnRGVjZW50cmFsaXplZCBGaWxlIExvY2tlcicsXG4gIHVybDogJ2h0dHBzOi8vZGVmaWxlLnZlcmNlbC5hcHAnLCAvLyBvcmlnaW4gbXVzdCBtYXRjaCB5b3VyIGRvbWFpbiAmIHN1YmRvbWFpblxuICBpY29uczogWydodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZmlsZS9kLzE1RS1UaDZvVnhjNWlxTkJOZkhua0NDQXlfNlY4NThUbC92aWV3P3VzcD1zaGFyaW5nJ11cbn1cblxuLy8gNC4gQ3JlYXRlIEV0aGVycyBjb25maWdcbi8vIGNvbnN0IGV0aGVyc0NvbmZpZyA9IGRlZmF1bHRDb25maWcoe1xuLy8gICBtZXRhZGF0YSxcbi8vICAgYXV0aDoge1xuLy8gICAgIGVtYWlsOiB0cnVlLCAvLyBkZWZhdWx0IHRvIHRydWVcbi8vICAgICBzb2NpYWxzOiBbJ2dvb2dsZScsICd4JywgJ2dpdGh1YicsICdkaXNjb3JkJywgJ2FwcGxlJ10sXG4vLyAgICAgc2hvd1dhbGxldHM6IHRydWUsIC8vIGRlZmF1bHQgdG8gdHJ1ZVxuLy8gICAgIHdhbGxldEZlYXR1cmVzOiB0cnVlIC8vIGRlZmF1bHQgdG8gdHJ1ZVxuLy8gICB9LFxuLy8gICBlbmFibGVFSVA2OTYzOiB0cnVlLCAvLyB0cnVlIGJ5IGRlZmF1bHRcbi8vICAgZW5hYmxlSW5qZWN0ZWQ6IHRydWUsIC8vIHRydWUgYnkgZGVmYXVsdFxuLy8gICBlbmFibGVDb2luYmFzZTogdHJ1ZSwgLy8gdHJ1ZSBieSBkZWZhdWx0XG4vLyAgIHJwY1VybDogJy4uLicsIC8vIHVzZWQgZm9yIHRoZSBDb2luYmFzZSBTREtcbi8vICAgZGVmYXVsdENoYWluSWQ6IDEgLy8gdXNlZCBmb3IgdGhlIENvaW5iYXNlIFNES1xuLy8gfSlcblxuLy8gNS4gQ3JlYXRlIGEgV2ViM01vZGFsIGluc3RhbmNlXG4vLyBjcmVhdGVXZWIzTW9kYWwoe1xuLy8gICBldGhlcnNDb25maWcsXG4vLyAgIGNoYWluczogW3Rlc3RuZXRdLFxuLy8gICBwcm9qZWN0SWQsXG4vLyAgIGVuYWJsZU9ucmFtcDogdHJ1ZSxcbi8vICAgZW5hYmxlQW5hbHl0aWNzOiB0cnVlIC8vIE9wdGlvbmFsIC0gZGVmYXVsdHMgdG8geW91ciBDbG91ZCBjb25maWd1cmF0aW9uXG4vLyB9KVxuY3JlYXRlV2ViM01vZGFsKHtcbiAgICBldGhlcnNDb25maWc6IGRlZmF1bHRDb25maWcoe1xuICAgICAgICBtZXRhZGF0YSxcbiAgICAgICAgYXV0aDoge1xuICAgICAgICAgICAgZW1haWw6IHRydWUsIC8vIGRlZmF1bHQgdG8gdHJ1ZVxuICAgICAgICAgICAgc29jaWFsczogWydnb29nbGUnLCAneCcsICdnaXRodWInLCAnZGlzY29yZCcsICdhcHBsZSddLFxuICAgICAgICAgICAgc2hvd1dhbGxldHM6IGZhbHNlLCAvLyBkZWZhdWx0IHRvIHRydWVcbiAgICAgICAgICAgIHdhbGxldEZlYXR1cmVzOiB0cnVlIC8vIGRlZmF1bHQgdG8gdHJ1ZVxuICAgICAgICB9LFxuICAgICAgICBlbmFibGVFSVA2OTYzOiB0cnVlLCAvLyB0cnVlIGJ5IGRlZmF1bHRcbiAgICAgICAgZW5hYmxlSW5qZWN0ZWQ6IHRydWUsIC8vIHRydWUgYnkgZGVmYXVsdFxuICAgICAgICBlbmFibGVDb2luYmFzZTogdHJ1ZSwgLy8gdHJ1ZSBieSBkZWZhdWx0XG4gICAgICAgIHJwY1VybDogJy4uLicsIC8vIHVzZWQgZm9yIHRoZSBDb2luYmFzZSBTREtcbiAgICAgICAgZGVmYXVsdENoYWluSWQ6IDEgLy8gdXNlZCBmb3IgdGhlIENvaW5iYXNlIFNES1xuICAgIH0pLFxuICAgIHByb2plY3RJZCxcbiAgICBjaGFpbnM6IFt0ZXN0bmV0XSxcbiAgICBlbmFibGVPbnJhbXA6IHRydWUsXG4gICAgZW5hYmxlQW5hbHl0aWNzOiB0cnVlIC8vIE9wdGlvbmFsIC0gZGVmYXVsdHMgdG8geW91ciBDbG91ZCBjb25maWd1cmF0aW9uXG59KVxuZXhwb3J0IGZ1bmN0aW9uIFdlYjNNb2RhbCh7IGNoaWxkcmVuIH0pIHtcbiAgcmV0dXJuIGNoaWxkcmVuXG59Il0sIm5hbWVzIjpbImNyZWF0ZVdlYjNNb2RhbCIsImRlZmF1bHRDb25maWciLCJwcm9qZWN0SWQiLCJtYWlubmV0IiwiY2hhaW5JZCIsIm5hbWUiLCJjdXJyZW5jeSIsImV4cGxvcmVyVXJsIiwicnBjVXJsIiwidGVzdG5ldCIsIm1ldGFkYXRhIiwiZGVzY3JpcHRpb24iLCJ1cmwiLCJpY29ucyIsImV0aGVyc0NvbmZpZyIsImF1dGgiLCJlbWFpbCIsInNvY2lhbHMiLCJzaG93V2FsbGV0cyIsIndhbGxldEZlYXR1cmVzIiwiZW5hYmxlRUlQNjk2MyIsImVuYWJsZUluamVjdGVkIiwiZW5hYmxlQ29pbmJhc2UiLCJkZWZhdWx0Q2hhaW5JZCIsImNoYWlucyIsImVuYWJsZU9ucmFtcCIsImVuYWJsZUFuYWx5dGljcyIsIldlYjNNb2RhbCIsImNoaWxkcmVuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./src/context/web3modal.tsx\n");
 
 /***/ }),
 
@@ -138,7 +378,34 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.js\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./src/app/globals.css\");\n\n\n\nconst metadata = {\n    title: \"DeFile\",\n    description: \"Decentralized File Locker\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: (next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default().className),\n            children: children\n        }, void 0, false, {\n            fileName: \"/Users/adee/Web3-Dev/DeFile/src/app/layout.js\",\n            lineNumber: 14,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/adee/Web3-Dev/DeFile/src/app/layout.js\",\n        lineNumber: 13,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUdNQTtBQUZpQjtBQUloQixNQUFNQyxXQUFXO0lBQ3RCQyxPQUFPO0lBQ1BDLGFBQWE7QUFDZixFQUFFO0FBRWEsU0FBU0MsV0FBVyxFQUFFQyxRQUFRLEVBQUU7SUFDN0MscUJBQ0UsOERBQUNDO1FBQUtDLE1BQUs7a0JBQ1QsNEVBQUNDO1lBQUtDLFdBQVdULDhKQUFlO3NCQUFHSzs7Ozs7Ozs7Ozs7QUFHekMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZWZpbGUvLi9zcmMvYXBwL2xheW91dC5qcz81YjE5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEludGVyIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcbmltcG9ydCBcIi4vZ2xvYmFscy5jc3NcIjtcblxuY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFtcImxhdGluXCJdIH0pO1xuXG5leHBvcnQgY29uc3QgbWV0YWRhdGEgPSB7XG4gIHRpdGxlOiBcIkRlRmlsZVwiLFxuICBkZXNjcmlwdGlvbjogXCJEZWNlbnRyYWxpemVkIEZpbGUgTG9ja2VyXCIsXG59O1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHsgY2hpbGRyZW4gfSkge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgPGJvZHkgY2xhc3NOYW1lPXtpbnRlci5jbGFzc05hbWV9PntjaGlsZHJlbn08L2JvZHk+XG4gICAgPC9odG1sPlxuICApO1xufVxuIl0sIm5hbWVzIjpbImludGVyIiwibWV0YWRhdGEiLCJ0aXRsZSIsImRlc2NyaXB0aW9uIiwiUm9vdExheW91dCIsImNoaWxkcmVuIiwiaHRtbCIsImxhbmciLCJib2R5IiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./src/app/globals.css\");\n/* harmony import */ var _context_web3modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/web3modal */ \"(rsc)/./src/context/web3modal.tsx\");\n\n\n\n\nconst metadata = {\n    title: \"DeFile\",\n    description: \"Decentralized File Locker\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_context_web3modal__WEBPACK_IMPORTED_MODULE_2__.Web3Modal, {\n                children: children\n            }, void 0, false, {\n                fileName: \"/Users/adee/Web3-Dev/DeFile/src/app/layout.js\",\n                lineNumber: 15,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"/Users/adee/Web3-Dev/DeFile/src/app/layout.js\",\n            lineNumber: 14,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/adee/Web3-Dev/DeFile/src/app/layout.js\",\n        lineNumber: 13,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBR01BO0FBRmlCO0FBQ3lCO0FBR3pDLE1BQU1FLFdBQVc7SUFDdEJDLE9BQU87SUFDUEMsYUFBYTtBQUNmLEVBQUU7QUFFYSxTQUFTQyxXQUFXLEVBQUVDLFFBQVEsRUFBRTtJQUM3QyxxQkFDRSw4REFBQ0M7UUFBS0MsTUFBSztrQkFDVCw0RUFBQ0M7c0JBQ0MsNEVBQUNSLHlEQUFTQTswQkFBRUs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJcEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZWZpbGUvLi9zcmMvYXBwL2xheW91dC5qcz81YjE5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEludGVyIH0gZnJvbSBcIm5leHQvZm9udC9nb29nbGVcIjtcbmltcG9ydCBcIi4vZ2xvYmFscy5jc3NcIjtcbmltcG9ydCB7IFdlYjNNb2RhbCB9IGZyb20gJy4uL2NvbnRleHQvd2ViM21vZGFsJ1xuY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFtcImxhdGluXCJdIH0pO1xuXG5leHBvcnQgY29uc3QgbWV0YWRhdGEgPSB7XG4gIHRpdGxlOiBcIkRlRmlsZVwiLFxuICBkZXNjcmlwdGlvbjogXCJEZWNlbnRyYWxpemVkIEZpbGUgTG9ja2VyXCIsXG59O1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSb290TGF5b3V0KHsgY2hpbGRyZW4gfSkge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgPGJvZHk+XG4gICAgICAgIDxXZWIzTW9kYWw+e2NoaWxkcmVufTwvV2ViM01vZGFsPlxuICAgICAgPC9ib2R5PlxuICAgIDwvaHRtbD5cbiAgKVxufVxuIl0sIm5hbWVzIjpbImludGVyIiwiV2ViM01vZGFsIiwibWV0YWRhdGEiLCJ0aXRsZSIsImRlc2NyaXB0aW9uIiwiUm9vdExheW91dCIsImNoaWxkcmVuIiwiaHRtbCIsImxhbmciLCJib2R5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.js\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/context/web3modal.tsx":
+/*!***********************************!*\
+  !*** ./src/context/web3modal.tsx ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Web3Modal: () => (/* binding */ e0)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/adee/Web3-Dev/DeFile/src/context/web3modal.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/adee/Web3-Dev/DeFile/src/context/web3modal.tsx#Web3Modal`);
+
 
 /***/ })
 
@@ -149,7 +416,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@web3modal","vendor-chunks/@walletconnect","vendor-chunks/@ethersproject","vendor-chunks/@coinbase","vendor-chunks/qrcode","vendor-chunks/multiformats","vendor-chunks/pngjs","vendor-chunks/@stablelib","vendor-chunks/readable-stream","vendor-chunks/pino","vendor-chunks/hash.js","vendor-chunks/uint8arrays","vendor-chunks/sha.js","vendor-chunks/fast-redact","vendor-chunks/keccak","vendor-chunks/whatwg-url","vendor-chunks/pino-std-serializers","vendor-chunks/pino-pretty","vendor-chunks/dayjs","vendor-chunks/valtio","vendor-chunks/color-convert","vendor-chunks/chalk","vendor-chunks/thread-stream","vendor-chunks/unstorage","vendor-chunks/@lit-labs","vendor-chunks/use-sync-external-store","vendor-chunks/tr46","vendor-chunks/preact","vendor-chunks/inherits","vendor-chunks/node-fetch","vendor-chunks/idb-keyval","vendor-chunks/destr","vendor-chunks/bignumber.js","vendor-chunks/sonic-boom","vendor-chunks/supports-color","vendor-chunks/rfdc","vendor-chunks/jmespath","vendor-chunks/has-flag","vendor-chunks/fast-safe-stringify","vendor-chunks/dateformat","vendor-chunks/color-name","vendor-chunks/ansi-styles","vendor-chunks/@hapi","vendor-chunks/webidl-conversions","vendor-chunks/util-deprecate","vendor-chunks/unfetch","vendor-chunks/string_decoder","vendor-chunks/strict-uri-encode","vendor-chunks/split-on-first","vendor-chunks/safe-stable-stringify","vendor-chunks/safe-buffer","vendor-chunks/quick-format-unescaped","vendor-chunks/query-string","vendor-chunks/proxy-compare","vendor-chunks/process-warning","vendor-chunks/on-exit-leak-free","vendor-chunks/minimalistic-assert","vendor-chunks/lodash.isequal","vendor-chunks/js-sha3","vendor-chunks/isomorphic-unfetch","vendor-chunks/filter-obj","vendor-chunks/eventemitter3","vendor-chunks/encode-utf8","vendor-chunks/dijkstrajs","vendor-chunks/detect-browser","vendor-chunks/decode-uri-component","vendor-chunks/bn.js","vendor-chunks/bech32","vendor-chunks/atomic-sleep"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2F_not-found%2Fpage&page=%2F_not-found%2Fpage&appPaths=&pagePath=..%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-error.js&appDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fadee%2FWeb3-Dev%2FDeFile&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
