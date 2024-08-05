@@ -1350,10 +1350,6 @@ video {
 .bg-white\/\[0\.8\] {
   background-color: rgb(255 255 255 / 0.8);
 }
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
 .bg-yellow-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(133 77 14 / var(--tw-bg-opacity));

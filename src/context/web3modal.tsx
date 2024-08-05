@@ -2,79 +2,60 @@
 
 import { createWeb3Modal, defaultConfig } from '@web3modal/ethers5/react'
 
-// 1. Get projectId at https://cloud.walletconnect.com
+// Get projectId from WalletConnect Cloud
 const projectId = '5d16e2c0f85cdb58d7408b89cd47bf24'
 
-// 2. Set chains
+// Define chains
 const mainnet = {
   chainId: 1,
   name: 'Ethereum',
   currency: 'ETH',
   explorerUrl: 'https://etherscan.io',
   rpcUrl: 'https://cloudflare-eth.com',
-  
 }
-const testnet = {
-    chainId: 11155111,
-    name: 'Sepolia',
-    currency: 'SepoliaETH',
-    explorerUrl: 'https://sepolia.etherscan.io/',
-    rpcUrl: 'https://eth-sepolia.g.alchemy.com/v2/UEi3OlYcSdlnavJoB9mQWf6f2VQGAeBf',
-    
-  }
 
-// 3. Create a metadata object
+const testnet = {
+  chainId: 11155111,
+  name: 'Sepolia',
+  currency: 'SepoliaETH',
+  explorerUrl: 'https://sepolia.etherscan.io/',
+  rpcUrl: 'https://eth-sepolia.g.alchemy.com/v2/UEi3OlYcSdlnavJoB9mQWf6f2VQGAeBf',
+}
+
+// Metadata for your app
 const metadata = {
   name: 'DeFile',
   description: 'Decentralized File Locker',
-  url: 'https://defile.vercel.app', // origin must match your domain & subdomain
-  icons: ['https://drive.google.com/file/d/15E-Th6oVxc5iqNBNfHnkCCAy_6V858Tl/view?usp=sharing']
+  url: 'https://defile.vercel.app', // Ensure this matches your domain
+  icons: ['https://drive.google.com/uc?export=view&id=15E-Th6oVxc5iqNBNfHnkCCAy_6V858Tl']
 }
 
-// 4. Create Ethers config
-// const ethersConfig = defaultConfig({
-//   metadata,
-//   auth: {
-//     email: true, // default to true
-//     socials: ['google', 'x', 'github', 'discord', 'apple'],
-//     showWallets: true, // default to true
-//     walletFeatures: true // default to true
-//   },
-//   enableEIP6963: true, // true by default
-//   enableInjected: true, // true by default
-//   enableCoinbase: true, // true by default
-//   rpcUrl: '...', // used for the Coinbase SDK
-//   defaultChainId: 1 // used for the Coinbase SDK
-// })
-
-// 5. Create a Web3Modal instance
-// createWeb3Modal({
-//   ethersConfig,
-//   chains: [testnet],
-//   projectId,
-//   enableOnramp: true,
-//   enableAnalytics: true // Optional - defaults to your Cloud configuration
-// })
-createWeb3Modal({
-    ethersConfig: defaultConfig({
-        metadata,
-        auth: {
-            email: true, // default to true
-            socials: ['google', 'x', 'github', 'discord', 'apple'],
-            showWallets: false, // default to true
-            walletFeatures: true // default to true
-        },
-        enableEIP6963: true, // true by default
-        enableInjected: true, // true by default
-        enableCoinbase: true, // true by default
-        rpcUrl: '...', // used for the Coinbase SDK
-        defaultChainId: 1 // used for the Coinbase SDK
-    }),
-    projectId,
-    chains: [testnet],
-    enableOnramp: true,
-    enableAnalytics: true // Optional - defaults to your Cloud configuration
+// Create Ethers configuration with auth options
+const ethersConfig = defaultConfig({
+  metadata,
+  auth:{
+    email: true,
+    socials:['google','x'],
+    showWallets: true, // Show wallets  
+    walletFeatures: true // Enable wallet features
+  },
+  enableEIP6963: true, // Enable EIP6963
+  enableInjected: true, // Enable injected wallets
+  enableCoinbase: true, // Enable Coinbase wallet
+  rpcUrl: '...', // RPC URL for Coinbase SDK
+  defaultChainId: 1 // Default chain ID for Coinbase SDK
 })
+
+// Create Web3Modal instance
+createWeb3Modal({
+  ethersConfig,
+  chains: [testnet],
+  projectId,
+  enableOnramp: true,
+  enableAnalytics: true // Enable analytics
+})
+
 export function Web3Modal({ children }) {
   return children
 }
+
