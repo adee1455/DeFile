@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "jsx": "react",
+    "checkJs": true, // Enable type checking for JavaScript files
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["src/**/*"] // Ensure all files in src are included
 }

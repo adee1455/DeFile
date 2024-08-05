@@ -2,13 +2,13 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import useIpfsAndEthereum from '@/hooks/useIpfsAndEthereum';
-import { createWeb3Modal, useWeb3Modal, useWalletInfo } from '@web3modal/ethers5/react';
+// import { createWeb3Modal, useWeb3Modal, useWalletInfo } from '@web3modal/ethers5/react';
 const Navbar = () => {
   const { loading } = useIpfsAndEthereum();
 
-  createWeb3Modal();
-  const { open } = useWeb3Modal()
-  const conn = useWalletInfo().walletInfo;
+  // createWeb3Modal();
+  // const { open } = useWeb3Modal()
+  // const conn = useWalletInfo().walletInfo;
 
 const router = useRouter();
 
@@ -17,11 +17,12 @@ const router = useRouter();
         <nav className="backdrop-blur-sm  fixed w-full h-[73px]  z-20 top-0 start-0 ">
   <div className ="max-w-screen-xl flex flex-wrap items-center dark:text-blue-600 text-blue-600  justify-between mx-auto p-4">
   <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="/logo2.png" class="sm:h-12 h-10" alt=" Logo"/>
+      <img src="/logo2.png" className="sm:h-12 h-10" alt=" Logo"/>
       <span className="self-center font-mono md:text-3xl text-2xl  sm:font-semibold font-bold whitespace-nowrap ">DeFile</span>
   </a>
   <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-    <button 
+  <w3m-connect-button />
+    {/* <button 
         className="relative  md:inline-flex sm:hidden hidden h-12  overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
         onClick={() => {open({ view: '' })}}
         disabled={loading}
@@ -30,7 +31,7 @@ const router = useRouter();
         <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-blue-500 md:px-7 px-4 py-1 text-sm font-semibold text-white backdrop-blur-3xl">
           {conn !== undefined ? 'View Wallet' : 'Connect Wallet'}
         </span>
-      </button>
+      </button> */}
 <button onClick={() => document.getElementById('dropdown').classList.toggle('hidden')} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400  dark:focus:ring-gray-600" aria-controls="dropdown" aria-expanded="false" aria-hidden="true">
         <span className="sr-only">Open main menu</span>
         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
