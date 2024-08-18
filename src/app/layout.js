@@ -12,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+    <meta name="google-site-verification" content="GjBpuDyiz1HLW_ZYqWWXRUqMFT7xzX5o3okR9xNs6zU" />
+    </head>
       <body>
         <Web3Modal>{children}</Web3Modal>
       </body>
