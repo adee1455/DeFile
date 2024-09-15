@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import useIpfsAndEthereum from '../hooks/useIpfsAndEthereum';
 import { ethers } from 'ethers';
-
+import { createWeb3Modal, useWeb3Modal, useWalletInfo } from '@web3modal/ethers5/react';
 const UploadForm = () => {
+  createWeb3Modal();
+  const { open } = useWeb3Modal()
+  const conn = useWalletInfo().walletInfo;
+
   const { connectWallet, uploadFileToIPFS, createPaper } = useIpfsAndEthereum();
   const [file, setFile] = useState(null);
   const [unlockTime, setUnlockTime] = useState('');
@@ -93,11 +97,26 @@ const copylink = (e) => {
         )}
         
         {!showPaperId && (
-          <button className='bg-blue-900 hover:bg-blue-600 hover:transition-colors  text-white w-36 mx-auto rounded-xl p-2 font-semibold' type="submit" disabled={loading}>
+          <div className='flex justify-center'>
+          <div className='flex justify-center'>
+          <button className='bg-blue-900 hover:bg-blue-600 relative hover:transition-colors  text-white w-36 mx-auto rounded-xl p-2 font-semibold' type="submit" disabled={loading}>
             {loading ? 'Uploading...' : 'Submit'}
           </button>
-          
+          </div>
+          <div className=''>
+          <button className="relative sm:hidden  ml-5 inline-flex  h-[2.60rem]  overflow-hidden rounded-xl p-[1px] focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                  onClick={() => {open({ view: '' })}}
+                  disabled={loading}
+          >
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-xl bg-blue-500 md:px-7 px-4 py-1 text-sm font-semibold text-white backdrop-blur-3xl">
+                {conn !== undefined ? 'View Wallet' : 'Connect Wallet'}
+          </span>
+          </button>
+          </div>
+          </div>
         )}
+        
       </form>
     </div>
   );
