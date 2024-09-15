@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-darwin-arm64": "^14.2.11",
+
     "@pinata/sdk": "^2.1.0",
     "@radix-ui/react-hover-card": "^1.1.1",
     "@react-three/drei": "^9.109.2",
